@@ -81,9 +81,9 @@ async def admincache(client, message: Message):
     await message.reply_text("✯𝗩𝗖𝗣𝗹𝗮𝘆𝗕𝗼𝘁✯=❇️ Admin cache refreshed!")
 
 @Client.on_message(
-    filters.command("help")
+    filters.command("help") 
     & filters.group
     & ~ filters.edited
 )
 async def helper(client , message:Message):
-     await message.reply_text("The commands and there use is explained here-: \n `/saavn` To search song on jio saavan and play the first result \n `/deezer` To search the song on deezer and get good quality stream \n `/song` To search the song on Youtube and play the first matching result \n '/play` Reply this in response to a link or any telegram audio file it will be played \n `/skip` to skip current song \n `/stop or /kill` to stop the streaming of song \n `/pause` to pause the stream \n `/resume` to resume the playback. \n Inline search is also supported.")
+     await message.reply_text("The commands and there use is explained here-: \n `/saavn` To search song on jio saavan and play the first result \n `/deezer` To search the song on deezer and get good quality stream \n `/song` To search the song on Youtube and play the first matching result \n '/play` Reply this in response to a link or any telegram audio file it will be played \n `/skip` to skip current song \n `/stop or /kill` to stop the streaming of song \n `/pause` to pause the stream \n `/resume` to resume the playback. \n Inline search is also supported. \n More info join group @TeLeTiPsOfficialOnTopicChat")
