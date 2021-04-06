@@ -306,5 +306,8 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     os.remove("temp.png")
     os.remove("background.png")
 
+@app.on_message(filters.command("repo") & filters.chat(sudo_chat_id))
+async def repo(_, message):
+    await send(REPO_TEXT)
 REPO_TEXT = "[Github](https://github.com/sangramghangale/VCPlayerBot)" \
             + " | [Group](@TeLeTiPsOfficialOnTopicChat)"
