@@ -305,3 +305,6 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     img.save("final.png")
     os.remove("temp.png")
     os.remove("background.png")
+
+REPO_TEXT = "[Github](https://github.com/sangramghangale/VCPlayerBot)" \
+            + " | [Group](@TeLeTiPsOfficialOnTopicChat)"
