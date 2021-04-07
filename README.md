@@ -70,22 +70,6 @@ Get STRING_NAME from here:
 - FFmpeg
 - Python 3.7+
 
-## Deployment
-
-### Config
-
-Copy `example.env` to `.env` and fill it with your credentials.
-
-### The good way
-
-1. Install Python requirements:
-   ```bash
-   pip install -U -r requirements.txt
-   ```
-2. Run:
-   ```bash
-   python main.py
-   ```
 ## Note
 
 1. If you want any help you can ask [here](https://t.me/TeLeTiPsOfficialOnTopicChat)
@@ -101,9 +85,3 @@ Copy `example.env` to `.env` and fill it with your credentials.
    ```bash
    docker run --env-file .env musicplayer
    ```
-
-## License
-
-### GNU Affero General Public License v3.0
-
-[Read more](http://www.gnu.org/licenses/#AGPL)
