@@ -30,7 +30,7 @@ Use the buttons below to know more about me.
                         "👥 Group", url="https://t.me/TeLeTiPsOfficialOnTopicChat"
                     ),
                     InlineKeyboardButton(
-                        "💾 Source code", url="https://github.com/sangramghangale/VCPlayerBot/edit/master/handlers/start.py"
+                        "💾 Source code", url="https://github.com/sangramghangale/VCPlayerBot"
                     )
                 ],
                 [
