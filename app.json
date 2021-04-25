@@ -1,6 +1,6 @@
 {
-    "name": "✯𝗖𝗵𝗼𝗰𝗼𝗹𝗮𝘁𝗲𝗤𝘂𝗲𝗲𝗻𝗕𝗼𝘁✯",
-    "logo": "https://telegra.ph/file/f3276547f4acfe432afe3.jpg",
+    "name": "𝒦𝒾𝓀𝒾",
+    "logo": "https://telegra.ph/file/1be2f00a196bfec140674.jpg",
     "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
     "keywords": ["music", "voicechat", "telegram"],
     "repository": "https://github.com/sangramghangale/VCPlayerBot",
@@ -29,7 +29,7 @@
         "DURATION_LIMIT": {
             "description": "In minutes!",
             "required": true,
-            "value": "15"
+            "value": "180"
         }
     }
   }
