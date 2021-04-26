@@ -43,7 +43,7 @@ async def play(client: Client, message_: Message):
     if audio:
         if round(audio.duration / 180) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"Videos longer than {DURATION_LIMIT} minute(s) aren't allowed, the provided video is {audio.duration / 60} minute(s)"
+                f"Videos longer than {DURATION_LIMIT} minute(s) aren't allowed, the provided video is {audio.duration / 180} minute(s)"
             )
 
         file_name = audio.file_id + audio.file_name.split(".")[-1]
