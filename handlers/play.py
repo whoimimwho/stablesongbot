@@ -81,12 +81,7 @@ async def play(client: Client, message_: Message):
         await res.edit_text(f"#️⃣ Queued at position {position}.")
     else:
         await res.edit_text("▶️ Playing...")
-        res.delete
-        m = await client.send_photo(
-        chat_id=message_.chat.id,
-        photo="https://telegra.ph/file/4cd733757f69a75ae8c62.jpg",
-        caption=f"Playing Your song Via 𝗩𝗖𝗣𝗹𝗮𝘆.",
-         ) 
+        
         tgcalls.pytgcalls.join_group_call(message_.chat.id, file_path)
 
 
